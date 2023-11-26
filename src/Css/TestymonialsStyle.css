@@ -1,0 +1,66 @@
+.Testymonials{
+    width: 100%;
+    background: #FCFCFC;
+}
+.Testymonials h1{
+    text-align: center;
+    color: #828282;
+    font-size: 40px;
+}
+.box-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-text .box{
+    border: 1px solid #000;
+    width: 35%;
+    /*height: 110px;*/
+    margin: 10px 15px 20px;
+    border-radius: 20px;
+    color: #6CB981;
+    border-color: #6CB981;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box img.img-logo{
+    width: 35px;
+    height: 35px;
+}
+.box img.img-star{
+    width: 70px;
+    height: 10px;
+}
+.box div.para p{
+    font-size: 10px;
+    line-height: 15px;
+    color: #0D4C14;
+    transform: translateY(-13px);
+}
+.box div.para img.img-star{
+    transform: translateY(-15px);
+}
+.box div.para{
+    transform: translate(10px, -20px);
+}
+
+/*desktop*/
+@media only screen and (min-width: 1200px){
+
+}
+/*laptop*/
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .box-text .box{
+        width: calc(100% - 50px);
+        /*height: 95px;*/
+        margin: 10px 25px 20px;
+    }
+}

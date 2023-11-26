@@ -1,0 +1,71 @@
+.contact-us h1{
+    text-align: center;
+    color: #828282;
+    font-size: 40px;
+}
+.contact-us{
+    width: 100%;
+    background: #FCFCFC;
+}
+div.contact-us .green-box .green{
+    width: 180px;
+    background-color: #9FDEA9;
+}
+div.contact-us .green-box .white{
+    width: 80px;
+    border:2px solid #4DB96B;
+}
+div.contact-us .green-box .white,
+div.contact-us .green-box .green{
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.green-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.connect, .green-box{
+    margin: 5px 15px;
+}
+.contact .connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    transform: translateY(20px);
+}
+.connect img{
+    width: 13px;
+    height: 13px;
+    margin: 0 10px 0 0;
+}
+.connect p{
+    font-size: 8px;
+}
+.connect div.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 1200px){
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 768px){
+
+}
